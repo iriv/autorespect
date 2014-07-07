@@ -1,0 +1,76 @@
+header .span8,header .span4{
+	height: 100px;
+	background-color: #ccc;
+	/*line-height: 200px;*/
+
+}
+
+
+
+header{
+	/*background-color: #ccc;*/
+	margin: 50px 0px 10px 0px;
+}
+
+header .span10{
+	margin-left: 0px;
+}
+
+/*header .span10{
+	/*background-color: #999;*/
+	margin-left: -0px;
+	vertical-align: bottom;
+
+}*/
+
+/*header .span10 div{
+	float: right;
+}*/
+
+
+
+article {
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+
+footer{
+	background-color: 
+}
+
+
+#content {
+	margin-left: 0;
+	padding: 10px;
+	height: 300px;
+}
+
+#menu {
+	padding-top: 25px;
+	margin-bottom: 10px;
+	/*margin:10px 10px;*/
+}
+
+
+
+
+/*.nav{
+	margin: 0;
+	padding: 0;
+}*/
+
+
+
+/*.nav .active a{
+	border-radius: 0px;
+}
+*/
+
+
+/*.nav li a:hover{
+	background-color: red;
+}
+
+.nav li.active a:hover{
+	background-color: red;
+}*/
