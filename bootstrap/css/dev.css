@@ -1,10 +1,22 @@
 header .span8,header .span4{
-	height: 100px;
-	background-color: #ccc;
+	/*height: 100px;*/
+	/*background-color: #ccc;*/
 	/*line-height: 200px;*/
-
+	/*font-weight: bold;*/
+	font-style: italic;
+	/*color: #005580;*/
+	color:#0088CC;
 }
 
+
+.container{
+	/*border: 1px solid #000;*/
+	/*background-color: #ccc;*/
+}
+
+/*header .span8{
+	margin-left:0px;
+}*/
 
 
 header{
@@ -13,15 +25,10 @@ header{
 }
 
 header .span10{
-	margin-left: 0px;
+	/*margin-left: 0px;*/
 }
 
-/*header .span10{
-	/*background-color: #999;*/
-	margin-left: -0px;
-	vertical-align: bottom;
 
-}*/
 
 /*header .span10 div{
 	float: right;
@@ -35,19 +42,24 @@ article {
 }
 
 footer{
-	background-color: 
+/*color:red;*/
+background-color: #F5F5F5;
+font-size: 12px;
+height: 50px;
+line-height: 50px	
+
 }
 
 
 #content {
-	margin-left: 0;
-	padding: 10px;
+	/*margin-left: 0;*/
+	/*padding: 0px;*/
 	height: 300px;
 }
 
 #menu {
 	padding-top: 25px;
-	margin-bottom: 10px;
+	/*margin-bottom: 10px;*/
 	/*margin:10px 10px;*/
 }
 
