@@ -1,0 +1,26 @@
+{% extends "main_c.html" %}
+
+{% block stageorder %}
+class="active"
+{% endblock %}
+
+{% block title %}
+Оставить заявку
+{% endblock %}
+
+
+{% block content %}
+
+<form>
+	<fieldset>
+		<legend>Заполните форму для заявки</legend>
+		<!-- <label>Ваш email</label> -->
+		<input type="email" placeholder="Ваш email адрес..." required>
+		<br>
+		<textarea placeholder="Текст сообщения..." class="input-xxlarge" name="" id="" cols="100" rows="5" required></textarea>
+		<br>
+		<button type="submit" class="btn">Отправить</button>
+	</fieldset>
+</form>
+
+{% endblock %}

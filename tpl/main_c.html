@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Грузоперевозки</title>
+	<meta charset="UTF-8">				
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/dev.css">
+</head>
+<body>
+
+	<div class="container">
+
+		<header class="row">
+			<div class="span8">
+				<a href="index.php" ><img width="150px" src="assets/img/logo1.jpg"  alt=""></a>
+			</div>
+			<div class="span4" align="right">
+				<span>Грузоперевозки по России</span>
+			</div>
+			<!-- <div class="span10" align="right">Грузоперевозки по России</div> -->
+			<!-- <div align="right">Грузоперевозки по России</div> -->
+			
+		</header>
+
+		
+
+		<div class="row" id="menu">
+			<div class="span12">
+			    <ul class="nav nav-pills">
+<!-- 				    <li {% block  stagemain %} {% endblock %}>
+				    	<a href="index.php">Главная</a>
+				    </li> -->
+				    <li {% block  stageabout %} {% endblock %}><a href="?page=about">О компании</a></li>
+				    <li {% block  stageservice %} {% endblock %}><a href="?page=service">Услуги</a></li>
+				    <li {% block  stagecontacts %} {% endblock %}><a href="?page=contacts">Контакты</a></li>
+				    <li {% block  stageorder %} {% endblock %}><a href="?page=order">Сделать заказ</a></li>
+			    </ul>
+		    	<hr>
+			</div>
+		</div>
+
+
+		<article class="row" >
+			<div class="span12" id="content">
+
+			<!-- <h3>{% block title %}main{% endblock %}</h3> -->
+			{% block content %}
+			
+			{% endblock %}
+
+			</div>
+		</article>
+
+
+
+<!-- 		<footer class="navbar-fixed-bottom row">	
+			<div class="span12" align="center">
+				Designed by RIV 2014 &copy; All rights reserved
+			</div>
+		</footer> -->
+
+	</div>
+
+
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
