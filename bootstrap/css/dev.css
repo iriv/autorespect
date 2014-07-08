@@ -9,9 +9,21 @@ header .span8,header .span4{
 }
 
 
+header .span8 a{
+	margin-left: -65px;
+	/*position: absolute;*/
+}
+
 .container{
 	/*border: 1px solid #000;*/
 	/*background-color: #ccc;*/
+}
+
+#menu hr{
+    border: none;  Убираем границу для браузера Firefox 
+    color: red; /* Цвет линии для остальных браузеров */
+    background-color: #0088CC; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;  Толщина линии 
 }
 
 /*header .span8{
@@ -29,6 +41,10 @@ header .span10{
 }
 
 
+
+#content {
+	margin-top: 25px;
+}
 
 /*header .span10 div{
 	float: right;
@@ -64,6 +80,15 @@ line-height: 50px
 }
 
 
+.nav-pills > li + li {
+	margin-left: 15px;
+}
+
+
+
+legend{
+	border: none;
+}
 
 
 /*.nav{
